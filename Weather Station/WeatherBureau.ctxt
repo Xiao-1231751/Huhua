@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherBureau
+comment0.text=\n\ \ A\ weather\ service\ that\ keeps\ track\ of\ all\ the\ weather\ stations\n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\n\ \ it\ represents,\ and\ how\ to\ use\ it.\n\n\ \ @author\ Huhua\ Xiao\ (xiaohuhua2019)\n\ \ @version\ 2021/11/18\n
+comment1.params=
+comment1.target=WeatherBureau()
+comment1.text=\n\ Initializes\ a\ newly\ created\ WeatherBureau\ object.\n
+comment2.params=text
+comment2.target=void\ recordDailySummary(java.lang.String)
+comment2.text=\n\ The\ method\ to\ read\ the\ text,\ and\ get\ the\ month,\ rainfall,\ and\ name\n\ of\ the\ WeatherStation\n\ @param\ text\ A\ long\ sentence\ that\ contains\ the\ information\n\ of\ the\ WeatherStation\n
+comment3.params=input
+comment3.target=void\ recordDailySummaries(java.util.Scanner)
+comment3.text=\n\ The\ method\ to\ read\ the\ next\ line,\ and\ also\ run\ \n\ recordDailySummary(nextLine)\n\ @param\ input\ The\ scanner\ to\ read\ the\ nextLine\n
+comment4.params=identifier
+comment4.target=WeatherStation\ getStation(java.lang.String)
+comment4.text=\n\ The\ method\ to\ use\ the\ identifier(key)\ to\ find\ the\ value\ in\ map,\n\ and\ return\ null\ if\ there\ is\ not\ key\ in\ map\n\ @param\ identifier\ The\ key\ in\ the\ map,\ and\ also\ the\ ID\ \n\ @return\ newMap.get(identifier)\n
+comment5.params=month
+comment5.target=WeatherStation\ lowestStation(int)
+comment5.text=\n\ The\ method\ to\ get\ the\ WeatherStation\ of\ the\ lowest\ average\ rainfall\n\ in\ a\ specific\ month\n\ @param\ month\ The\ month\ number\ between\ 1\ to\ 12\ \n\ @return\ xiao;\n
+comment6.params=
+comment6.target=WeatherStation\ lowestStation()
+comment6.text=\n\ The\ method\ to\ get\ the\ WeatherStation\ of\ the\ lowest\ average\ rainfall\ \n\ in\ all\ months\n\ @return\ xiao\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherStation
+comment0.text=\n\ \ The\ calss\ represents\ the\ basic\ statistics\ collected\ by\ one\ weather\ \n\ \ observation\ station\n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\n\ \ it\ represents,\ and\ how\ to\ use\ it.\n\n\ \ @author\ Huhua\ Xiao\ (xiaohuhua2019)\n\ \ @version\ 2021/11/17\n
+comment1.params=identifier
+comment1.target=WeatherStation(java.lang.String)
+comment1.text=\n\ Initializes\ a\ newly\ created\ WeatherStation\ object.\n\ @param\ identifier\ The\ name\ of\ the\ station\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\n\ The\ method\ to\ return\ the\ weather\ station\ ID\ for\ the\ weatherstation\n\ @return\ name\n
+comment3.params=month\ rainfall
+comment3.target=void\ recordDailyRain(int,\ double)
+comment3.text=\n\ The\ method\ add\ the\ times\ and\ numbers\ of\ rainfall\ in\ the\ \n\ correct\ array\n\ @param\ month\ The\ month\ of\ raining\n\ @param\ rainfall\ The\ times\ of\ raining\ \n
+comment4.params=month
+comment4.target=int\ getCountForMonth(int)
+comment4.text=\n\ The\ method\ to\ return\ return\ the\ rainfall\ times\ in\ a\ specific\ month\n\ @param\ month\ The\ number\ of\ the\ month\ between\ 1\ to\ 12\n\ @return\ times[month\ -\ 1];\n
+comment5.params=month
+comment5.target=double\ getAvgForMonth(int)
+comment5.text=\n\ The\ method\ to\ get\ the\ average\ rainfall\ in\ a\ specific\ month\n\ @param\ month\ The\ number\ of\ the\ month\ between\ 1\ to\ 12\n\ @return\ c\n
+comment6.params=
+comment6.target=int\ getLowestMonth()
+comment6.text=\n\ The\ method\ to\ get\ the\ month\ number\ of\ the\ lowest\ \n\ average\ rainfall\ in\ the\ all\ months\n\ @return\ number\n
+numComments=7
