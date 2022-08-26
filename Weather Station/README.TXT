@@ -1,15 +1,10 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+This is the project to help the weather station to get and analyze 
+the information about different weathers, and then store these
+information.
 ------------------------------------------------------------------------
 
-ASSIGNMENT:
+ASSIGNMENT: Weather Station
 
-AUTHOR(S):
+AUTHOR(S):Huhua Xiao
 
-VERSION or DATE:
-
-HOW TO START THIS PROJECT:
-
-USER INSTRUCTIONS:
